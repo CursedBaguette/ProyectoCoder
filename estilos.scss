@@ -1,0 +1,140 @@
+body, html {
+    height: 100%;
+    /* background-image: url(/Images/patern2.png);
+    background-repeat: repeat;
+    background-size: 10px; */
+    background-color: #2a2634; 
+}
+
+/*Header y Footer*/
+.header__nav--background{
+    /* background-image: url("Images/old-games-seamless-pattern-retro-gaming-pixels-video-game-pixel-art-arcade_102902-925.jpg");
+    background-repeat: repeat;
+    background-size: 150px; */
+    background-color: #131c32 !important;
+}
+.header__nav--botones {
+    font-family: Acme;
+    font-size: 18px;
+    color:white !important;
+    background-color: rgb(102,115,137,); /*0.9*/
+}
+
+.footer__nav--background{
+    /* background-image: url("Images/old-games-seamless-pattern-retro-gaming-pixels-video-game-pixel-art-arcade_102902-925.jpg");
+    background-repeat: repeat;
+    background-size: 150px; */
+    background-color: #131c32 !important;
+}
+/*Header y Footer*/
+
+
+
+
+
+/*Login Izquierdo*/
+#left__leftBar--body{
+    border: solid 2px silver;
+    border-radius: 5px;
+    background-color:#131c32;
+    color: White;
+margin-top: 18%;
+
+}
+/* .piedp{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+} */
+
+
+.left__leftBar--top{
+    background-color: #131c32; 
+    background-image: url(/Images/ezgif-2-6c7faf0944ef2.gif); 
+    background-repeat: no-repeat;
+    background-position: left;
+    border-bottom: #131c32;
+    
+}
+
+.left__leftBar--login{
+    color: silver;
+    padding-left: 5%;
+    margin-bottom: 2%;
+    font-weight: bold;
+}
+
+
+.left__leftBar--position {
+    position: sticky;
+    top: 100px;
+}
+/*Login Izquierdo*/
+
+
+
+
+/*Central*/
+.center__main--background{
+    background-color: #4d5067;
+    border-radius: 15px; border-style: solid;
+    border-color: silver;
+}
+
+.center__main--text{
+    text-align: justify;
+    text-justify: inter-word;
+}
+/*Central*/
+
+
+.falopa{
+    background-color: #131c32 !important;
+    border-color: #131c32;
+    border-style: solid;
+    border-width: 1px;
+}
+.modal-footer{
+    border: #131c32;
+    border-style:solid;
+    border-width:  1px;
+}
+
+
+.charmander-img, .squirtle-img, .bulbasaur-img {
+    height: 250px;
+    width: 250px;
+    border-top: red solid 5px;
+    border-bottom: white solid 5px;
+    border-radius: 500px;
+
+    
+}
+@each $pokemon in charmander,squirtle,bulbasaur {
+    .#{$pokemon}-img{
+        background-image:
+        url("images/#{$pokemon}.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: right;
+        margin: 2%;
+    }
+};
+
+.pokeball-line{
+    border: solid  rgb(58, 57, 57);
+    border-radius: 2px;
+    margin-top: 50%;
+    margin-left: -5%;
+    margin-right: -5%;
+    background-color: rgb(58, 57, 57);
+    opacity: 0.95;
+}
+.pokeball-button{
+    border: solid 1px rgb(58, 57, 57);
+    border-radius: 500px;
+    background-color: white;
+    margin-left: 46%;
+    margin-right: 47%;
+    padding: 5px;
+}
