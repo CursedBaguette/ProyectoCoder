@@ -68,10 +68,11 @@ body, html {
 /*Login Izquierdo*/
 /*Central*/
 .center__main--background {
-  background-color: #4d5067;
+  background-color: rgb(77, 80, 103, 0.9);
   border-radius: 15px;
   border-style: solid;
   border-color: silver;
+  color: white;
 }
 
 .center__main--text {
@@ -79,10 +80,42 @@ body, html {
   text-justify: inter-word;
 }
 
+.center__main--separator{
+  border-top: 9px double silver;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
 /*Central*/
 
+/*FAQ*/
+.bg-info{
+  background-color: #131c32!important;
+  
+}
+.fa-user{
+  color: #131c32!important;
+  
+}
+.fa-envelope{
+  color: #131c32!important;
+  
+}
+.fa-comment{
+  color: #131c32!important;
+  
+}
 
+.btn-block{
+  background-color: #131c32!important;
+  color: white;
+  border-color: rgba(77, 77, 77, 1)!important;
+}
 
+.border-primary{
+border-color: rgba(77, 77, 77, 1)!important;
+}
+
+/*FAQ*/
 
 
 .falopa {
