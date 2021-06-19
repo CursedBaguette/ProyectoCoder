@@ -74,6 +74,8 @@ body, html {
   border-color: silver;
   color: white;
   font-family: Montserrat;
+  font-weight:bold;
+  font-size: 18px;
 }
 
 .center__main--text {
@@ -224,35 +226,29 @@ border-color: rgba(77, 77, 77, 1)!important;
 background-image: url("./Images/isabelle.gif"), url("./Images/phoenix.gif");
 background-repeat: no-repeat;
 background-position-x: 50%;
-background-position-y: 49%, 88%;
+background-position-y: 49%, 80%;
 background-size: 200px, 200px;
 }
-
-/* @media only screen and (max-width: 1560px) {
-  .detalle1 {
-  background-size: 500px, 500px;
-  background-position-x: 50%;
-  background-position-y: 55%, 90%;
-  }
-}
-@media only screen and (max-width: 1446px) {
-  .detalle1 {
-  background-size: 350px, 350px;
-  background-position-x: 50%;
-  background-position-y: 65%, 95%;
-  }
-}
-
-@media only screen and (max-width: 1062px) {
-  .detalle1 {
-  background-size: 200px, 200px;
-  background-position-x: 50%;
-  background-position-y: 75%, 85%;
-  }
-}*/
 
 @media only screen and (max-width: 766px) {
   .detalle1 {
   background-image: url();
   }
 } 
+
+.img-fluid1{
+  border-radius: 25px;
+  border-color: black;
+  border-style: solid;
+  margin-left: 20px;
+
+}
+
+.img-fluid2{
+  border-radius: 25px;
+  border-color: black;
+  border-style: solid;
+}
+.img-fluid3{
+padding-right: 20px;
+}
