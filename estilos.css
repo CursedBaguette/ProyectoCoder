@@ -73,6 +73,7 @@ body, html {
   border-style: solid;
   border-color: silver;
   color: white;
+  font-family: Montserrat;
 }
 
 .center__main--text {
@@ -182,3 +183,76 @@ border-color: rgba(77, 77, 77, 1)!important;
   padding: 5px;
 }
 /*# sourceMappingURL=estilos.css.map */
+
+
+.Testeo{
+  position: fixed;
+  left:0;
+  bottom: 0;
+  margin-bottom: 0px;
+  margin-left: 10px;
+  width: 60px;
+  height: 60px;
+  border-radius: 15px;
+  border-style: solid;
+  border-color: silver;
+
+} 
+#linkmario{
+  color: white;
+  font-family: Acme;
+}
+.imgmario{
+  background-image: url("./Images/mario11.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 40px;
+  width: 50px;
+  height: 50px;
+
+}
+.imgmario:hover{
+  background-image: url("./Images/mario22.png");
+  background-position: 0;
+  background-repeat: no-repeat;
+  background-size: 50px;
+  width: 50px;
+  height: 50px;
+}
+
+.detalle1{
+background-image: url("./Images/isabelle.gif"), url("./Images/phoenix.gif");
+background-repeat: no-repeat;
+background-position-x: 50%;
+background-position-y: 50%, 88%;
+background-size: 200px, 200px;
+}
+
+/* @media only screen and (max-width: 1560px) {
+  .detalle1 {
+  background-size: 500px, 500px;
+  background-position-x: 50%;
+  background-position-y: 55%, 90%;
+  }
+}
+@media only screen and (max-width: 1446px) {
+  .detalle1 {
+  background-size: 350px, 350px;
+  background-position-x: 50%;
+  background-position-y: 65%, 95%;
+  }
+}
+
+@media only screen and (max-width: 1062px) {
+  .detalle1 {
+  background-size: 200px, 200px;
+  background-position-x: 50%;
+  background-position-y: 75%, 85%;
+  }
+}*/
+
+@media only screen and (max-width: 766px) {
+  .detalle1 {
+  background-image: url();
+  }
+} 
