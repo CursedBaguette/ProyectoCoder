@@ -134,7 +134,7 @@ border-color: rgba(77, 77, 77, 1)!important;
   border-width: 1px;
 }
 
-.charmander-img, .squirtle-img, .bulbasaur-img {
+/* .charmander-img, .squirtle-img, .bulbasaur-img {
   height: 250px;
   width: 250px;
   border-top: red solid 5px;
@@ -183,7 +183,7 @@ border-color: rgba(77, 77, 77, 1)!important;
   margin-left: 46%;
   margin-right: 47%;
   padding: 5px;
-}
+} */
 /*# sourceMappingURL=estilos.css.map */
 
 
@@ -198,6 +198,7 @@ border-color: rgba(77, 77, 77, 1)!important;
   border-radius: 15px;
   border-style: solid;
   border-color: silver;
+
 
 } 
 #linkmario{
@@ -226,8 +227,14 @@ border-color: rgba(77, 77, 77, 1)!important;
 background-image: url("./Images/isabelle.gif"), url("./Images/phoenix.gif");
 background-repeat: no-repeat;
 background-position-x: 50%;
-background-position-y: 49%, 80%;
+background-position-y: 47%, 80%;
 background-size: 200px, 200px;
+}
+
+@media only screen and (max-width: 861px) {
+  .detalle1 {
+  background-position-y: 55%, 81%;
+  }
 }
 
 @media only screen and (max-width: 766px) {
@@ -241,6 +248,7 @@ background-size: 200px, 200px;
   border-color: black;
   border-style: solid;
   margin-left: 20px;
+  width: 200px;
 
 }
 
@@ -248,7 +256,32 @@ background-size: 200px, 200px;
   border-radius: 25px;
   border-color: black;
   border-style: solid;
+  width: 200px;
 }
 .img-fluid3{
 padding-right: 20px;
+}
+
+.iframe-container{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; 
+  height: 0;
+}
+.iframe-container iframe{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 90%;
+  height: 50%;
+  margin-left: 5%;
+  margin-bottom: 5%;
+
+}
+
+.pepito{
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 5%;
+  margin-bottom: -20%;
 }
